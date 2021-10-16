@@ -23,6 +23,9 @@ Drop the script into the main directory (with FXServer.exe)
 
 ![image](https://user-images.githubusercontent.com/77174014/137593833-9a0909cf-0b48-48b1-8994-5f301045aff3.png)
 
-- [X] After running the script, the fivem server will start automatically
-- [X] To stop the FiveM, first stop the script and then the FiveM
-- [ ] Script will not run txadmin
+# Important
+
+- After running the script, the fivem server will start automatically
+- To stop the FiveM, first stop the script and then the FiveM
+- Script will not run txadmin
+- The script that will disable the server should be done in lua using ***os.exit***
